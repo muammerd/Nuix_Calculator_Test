@@ -12,6 +12,14 @@ public class calculator {
     WebDriver driver = new ChromeDriver();
     String url = "https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html";
 
+    //  Addition Test Scenario:
+    //  Open the calculator web page.
+    //  Enter a number first input field.
+    //  Click on the addition (+) button.
+    //  Enter another number to add to the first number.
+    //  Click on the equal (=) button.
+    //  Verify that the result displayed is the sum of the two numbers entered.
+
     @Test
     public void testingAddition() throws InterruptedException {
 
@@ -45,6 +53,14 @@ public class calculator {
         Assert.assertEquals("8", resultField.getText());
         driver.close();
     }
+
+    //  Subtraction Test Scenario:
+    //  Open the calculator web page.
+    //  Enter a number first input field.
+    //  Click on the subtraction (-) button.
+    //  Enter another number to subtract from the first number.
+    //  Click on the equal (=) button.
+    //  Verify that the result displayed is the difference between the two numbers you entered
 
     @Test
     public void testingSubtraction() throws InterruptedException {
@@ -81,6 +97,15 @@ public class calculator {
         driver.close();
     }
 
+
+    //  Multiplication Test Scenario:
+    //  Open the calculator web page.
+    //  Enter a number first input field.
+    //  Click on the multiplication (x) button.
+    //  Enter another number to multiply by the first number.
+    //  Click on the equal (=) button.
+    //  Verify that the result displayed is the product of the two numbers you entered.
+
     @Test
     public void testingMultiplication() throws InterruptedException {
         // Open the calculator web page
@@ -115,6 +140,14 @@ public class calculator {
         driver.close();
     }
 
+
+    //  Division Test Scenario:
+    //  Open the calculator web page.
+    //  Enter a number first input field.
+    //  Click on the division (÷) button.
+    //  Enter another number to divide by the first number.
+    //  Click on the equal (=) button.
+    //  Verify that the result displayed is the quotient of the two numbers you entered.
     @Test
     public void testingDivision() throws InterruptedException {
 
