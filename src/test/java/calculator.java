@@ -86,7 +86,7 @@ public class calculator {
 
 
         // Perform subtraction clicking equal button
-        WebElement equButton = driver.findElement(By.xpath("/html/body/div[2]/div[3]/input[3]"));
+        WebElement equButton = driver.findElement(By.xpath("//input[@value=\"=\"]"));
         equButton.click();
         Thread.sleep(3000);
 
@@ -129,7 +129,7 @@ public class calculator {
 
 
         // Perform subtraction clicking equal button
-        WebElement equButton = driver.findElement(By.xpath("/html/body/div[2]/div[3]/input[3]"));
+        WebElement equButton = driver.findElement(By.xpath("//input[@value=\"=\"]"));
         equButton.click();
         Thread.sleep(3000);
 
@@ -172,7 +172,7 @@ public class calculator {
 
 
         // Perform subtraction clicking equal button
-        WebElement equButton = driver.findElement(By.xpath("/html/body/div[2]/div[3]/input[3]"));
+        WebElement equButton = driver.findElement(By.xpath("//input[@value=\"=\"]"));
         equButton.click();
         Thread.sleep(3000);
 
